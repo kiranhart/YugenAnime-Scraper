@@ -1,0 +1,43 @@
+{   
+    "env": {
+        "node": true
+    },
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "script"
+    },
+    "rules": {
+        "quotes": ["error", "single", {
+            "allowTemplateLiterals": true
+        }],
+        "comma-dangle": "off",
+        "no-unused-vars": "warn",
+        "no-extra-semi": "error",
+        "array-bracket-spacing": ["warn", "never"],
+ 
+        "capitalized-comments": "off",
+        "comma-spacing": ["error", {
+            "before": false,
+            "after": true
+        }],
+        "indent": ["error", 4],
+        "semi": ["error", "always"],
+        "spaced-comment": ["error", "always"],
+        "arrow-body-style": "off",
+        "arrow-parens": ["error", "always"],
+        "arrow-spacing": ["error", {
+            "before": true,
+            "after": true
+        }],
+        "no-duplicate-imports": ["error", {
+            "includeExports": true
+        }],
+        "no-var": "error",
+        "prefer-arrow-callback": "error",
+        "prefer-const": "off",
+        "prefer-destructuring": "off",
+        "sort-imports": "off",
+        "no-case-declarations": "off"
+    }
+}

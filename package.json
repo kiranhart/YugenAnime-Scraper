@@ -1,0 +1,24 @@
+{
+  "name": "yugenanime-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes anime data from yugen anime",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "author": "Kiran Hart",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0"
+  }
+}
